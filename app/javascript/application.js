@@ -17,3 +17,4 @@ $('.message .close')
     ;
   })
 ;
+import "channels"
