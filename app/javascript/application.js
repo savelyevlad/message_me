@@ -18,3 +18,13 @@ $('.message .close')
   })
 ;
 import "channels"
+
+function scroll_bottom() {
+  if ($('#message_content').length < 0) {
+    return;
+  }
+
+  $('#message_content').scrollTop($('#message_content')[0].scrollHeight);
+}
+
+scroll_bottom();
