@@ -19,3 +19,8 @@
 .chatbox {
     height: 450px;
 }
+
+#message_content {
+    overflow: auto;
+    height: 15em;
+}
